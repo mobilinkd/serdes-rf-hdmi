@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name NucleoTNC)(type KiCad)(uri /home/rob/workspace/Nucleo_L432KC_TNC/KiCAD/NucleoTNC.pretty)(options "")(descr ""))
+  (lib (name serdes-rf-pmod)(type KiCad)(uri /home/rob/m17-fpga/serdes-rf-pmod)(options "")(descr ""))
+  (lib (name KiCAD)(type KiCad)(uri /home/rob/workspace/Nucleo_L432KC_TNC/KiCAD)(options "")(descr ""))
+)
