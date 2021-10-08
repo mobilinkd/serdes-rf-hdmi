@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10-1.fc33"
     },
-    "CreationDate":  "2021-08-29T16:43:16-05:00"
+    "CreationDate":  "2021-10-07T20:02:16-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "serdes-rf-hdmi",
       "GUID": "73657264-6573-42d7-9266-2d68646d692e",
-      "Revision": "A"
+      "Revision": "B"
     },
     "Size":
     {
-      "X": 33.550,
-      "Y": 33.050
+      "X": 53.550,
+      "Y": 25.050
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
@@ -32,7 +32,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.190,
+      "MinLineWidth":  0.200,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     },
