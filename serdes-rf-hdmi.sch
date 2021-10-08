@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HDMI RF Test Board"
-Date "2021-08-29"
-Rev "A"
+Date "2021-10-07"
+Rev "B"
 Comp "Mobilinkd LLC"
 Comment1 ""
 Comment2 ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J2
+L Connector:Conn_Coaxial J3
 U 1 1 61266A15
 P 8050 1150
-F 0 "J2" H 8150 1125 50  0000 L CNN
+F 0 "J3" H 8150 1125 50  0000 L CNN
 F 1 "SMA" H 7800 1100 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 8050 1150 50  0001 C CNN
 F 3 " ~" H 8050 1150 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "https://en.wikipedia.org/wiki/HDMI" H 2725 2250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J3
+L Connector:Conn_Coaxial J2
 U 1 1 61274BE5
 P 8050 1850
-F 0 "J3" H 8150 1825 50  0000 L CNN
+F 0 "J2" H 8150 1825 50  0000 L CNN
 F 1 "SMA" H 8150 1734 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 8050 1850 50  0001 C CNN
 F 3 " ~" H 8050 1850 50  0001 C CNN
@@ -145,7 +145,7 @@ U 1 1 615D0595
 P 3350 2250
 F 0 "C1" H 3400 2150 50  0000 C CNN
 F 1 "10nF" H 3250 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 2250 50  0001 C CNN
 F 3 "~" H 3350 2250 50  0001 C CNN
 	1    3350 2250
 	1    0    0    -1  
@@ -181,50 +181,28 @@ Wire Wire Line
 Wire Wire Line
 	3650 2550 3650 2450
 Connection ~ 3650 2450
-$Comp
-L Transformer:ADT2-1T-1P TR2
-U 1 1 615E1C9B
-P 5200 2050
-F 0 "TR2" H 5200 1700 50  0000 C CNN
-F 1 "ADT2-1T-1P" H 5200 1800 50  0000 C CNN
-F 2 "serdes-rf-hdmi:XFMR_TC1-1-13M+" H 5200 1700 50  0001 C CNN
-F 3 "https://www.minicircuits.com/pdfs/ADT2-1T-1P+.pdf" H 5200 2050 50  0001 C CNN
-	1    5200 2050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transformer:ADT2-1T-1P TR1
-U 1 1 615EC9E6
-P 5150 1350
-F 0 "TR1" H 5150 1750 50  0000 C CNN
-F 1 "ADT2-1T-1P" H 5150 1650 50  0000 C CNN
-F 2 "serdes-rf-hdmi:XFMR_TC1-1-13M+" H 5150 1000 50  0001 C CNN
-F 3 "https://www.minicircuits.com/pdfs/ADT2-1T-1P+.pdf" H 5150 1350 50  0001 C CNN
-	1    5150 1350
-	-1   0    0    -1  
-$EndComp
 Connection ~ 3350 2050
 Connection ~ 3350 2450
 $Comp
 L Device:R R4
 U 1 1 615F5C9B
-P 4850 2050
-F 0 "R4" V 4950 2050 50  0000 C CNN
-F 1 "50R" V 4850 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 2050 50  0001 C CNN
-F 3 "~" H 4850 2050 50  0001 C CNN
-	1    4850 2050
+P 4800 2050
+F 0 "R4" V 4900 2050 50  0000 C CNN
+F 1 "50R" V 4800 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4730 2050 50  0001 C CNN
+F 3 "~" H 4800 2050 50  0001 C CNN
+	1    4800 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 615F6835
-P 4700 2050
-F 0 "#PWR05" H 4700 1800 50  0001 C CNN
-F 1 "GND" H 4705 1877 50  0000 C CNN
-F 2 "" H 4700 2050 50  0001 C CNN
-F 3 "" H 4700 2050 50  0001 C CNN
-	1    4700 2050
+P 4650 2050
+F 0 "#PWR05" H 4650 1800 50  0001 C CNN
+F 1 "GND" H 4655 1877 50  0000 C CNN
+F 2 "" H 4650 2050 50  0001 C CNN
+F 3 "" H 4650 2050 50  0001 C CNN
+	1    4650 2050
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -232,23 +210,23 @@ Wire Wire Line
 $Comp
 L Device:R R3
 U 1 1 615F9D2D
-P 4800 1350
-F 0 "R3" V 4900 1350 50  0000 C CNN
-F 1 "50R" V 4800 1300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4730 1350 50  0001 C CNN
-F 3 "~" H 4800 1350 50  0001 C CNN
-	1    4800 1350
+P 4750 1350
+F 0 "R3" V 4850 1350 50  0000 C CNN
+F 1 "50R" V 4750 1300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 1350 50  0001 C CNN
+F 3 "~" H 4750 1350 50  0001 C CNN
+	1    4750 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 615F9D33
-P 4650 1350
-F 0 "#PWR04" H 4650 1100 50  0001 C CNN
-F 1 "GND" H 4655 1177 50  0000 C CNN
-F 2 "" H 4650 1350 50  0001 C CNN
-F 3 "" H 4650 1350 50  0001 C CNN
-	1    4650 1350
+P 4600 1350
+F 0 "#PWR04" H 4600 1100 50  0001 C CNN
+F 1 "GND" H 4605 1177 50  0000 C CNN
+F 2 "" H 4600 1350 50  0001 C CNN
+F 3 "" H 4600 1350 50  0001 C CNN
+	1    4600 1350
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -509,4 +487,38 @@ NoConn ~ 3100 1650
 NoConn ~ 3100 1750
 Text Notes 6050 2600 0    50   ~ 0
 https://rf-tools.com/lc-filter/\nChebyshev bandpass 120-150MHz, 4th order.
+Wire Wire Line
+	4900 1350 4950 1350
+Wire Wire Line
+	4950 2050 5000 2050
+$Comp
+L TC1-1TX_:TC1-1TX+ TR1
+U 1 1 61672048
+P 5150 1350
+F 0 "TR1" H 5150 1017 50  0000 C CNN
+F 1 "TC1-1TX+" H 5150 1000 50  0001 C CNN
+F 2 "serdes-rf-hdmi:XFMR_TC1-1-13M+" H 5050 1700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/1030/TC1_1TX_2b-1701474.pdf" H 5150 1350 50  0001 C CNN
+	1    5150 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TC1-1TX_:TC1-1TX+ TR2
+U 1 1 61674845
+P 5200 2050
+F 0 "TR2" H 5200 2339 50  0000 C CNN
+F 1 "TC1-1TX+" H 5200 1700 50  0001 C CNN
+F 2 "serdes-rf-hdmi:XFMR_TC1-1-13M+" H 5100 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/1030/TC1_1TX_2b-1701474.pdf" H 5200 2050 50  0001 C CNN
+	1    5200 2050
+	-1   0    0    1   
+$EndComp
+Text Label 3750 1850 0    50   ~ 0
+rfb+
+Text Label 3750 1950 0    50   ~ 0
+rfb-
+Text Label 3700 1550 0    50   ~ 0
+rfa-
+Text Label 3700 1450 0    50   ~ 0
+rfa+
 $EndSCHEMATC

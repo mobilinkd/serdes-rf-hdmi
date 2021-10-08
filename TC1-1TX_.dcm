@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADT16-1T
+D 1.5-160MHz 1:16 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+K Mini-Circuits RF Transformer
+F https://www.minicircuits.com/pdfs/ADT16-1T+.pdf
+$ENDCMP
+#
+$CMP ADT2-1T-1P
+D 8-600MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+K Mini-Circuits RF Transformer
+F https://www.minicircuits.com/pdfs/ADT2-1T-1P+.pdf
+$ENDCMP
+#
+$CMP ADT4-1T
+D 9-625MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+K Mini-Circuits RF Transformer
+F https://www.minicircuits.com/pdfs/ADT4-1T+.pdf
+$ENDCMP
+#
+$CMP ADT4-1WT
+D 2-775MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+K Mini-Circuits RF Transformer
+F https://www.minicircuits.com/pdfs/ADT4-1WT+.pdf
+$ENDCMP
+#
+$CMP ADT9-1T
+D 1-250MHz 1:9 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+K Mini-Circuits RF Transformer
+F https://www.minicircuits.com/pdfs/ADT9-1T+.pdf
+$ENDCMP
+#
+$CMP TC1-1TX+
+D 1-400MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, AT1521
+K Mini-Circuits RF Transformer
+F https://www.mouser.com/datasheet/2/1030/TC1_1TX_2b-1701474.pdf
+$ENDCMP
+#
+#End Doc Library
