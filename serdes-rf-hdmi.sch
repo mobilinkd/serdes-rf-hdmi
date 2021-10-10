@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HDMI RF Test Board"
-Date "2021-10-07"
+Date "2021-10-09"
 Rev "B"
 Comp "Mobilinkd LLC"
 Comment1 ""
@@ -234,89 +234,89 @@ Wire Wire Line
 $Comp
 L Device:L L1
 U 1 1 6160B655
-P 6100 1300
-F 0 "L1" H 6153 1346 50  0000 L CNN
-F 1 "8.2nH" H 6153 1255 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 1300 50  0001 C CNN
-F 3 "~" H 6100 1300 50  0001 C CNN
-	1    6100 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L5
-U 1 1 6160C30C
-P 6950 1300
-F 0 "L5" H 7003 1346 50  0000 L CNN
-F 1 "8.2nH" H 7003 1255 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 1300 50  0001 C CNN
-F 3 "~" H 6950 1300 50  0001 C CNN
-	1    6950 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L3
-U 1 1 6160CAB3
-P 6550 1150
-F 0 "L3" V 6740 1150 50  0000 C CNN
-F 1 "430nH" V 6649 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6550 1150 50  0001 C CNN
-F 3 "~" H 6550 1150 50  0001 C CNN
-	1    6550 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L L7
-U 1 1 6160CE1C
-P 7400 1150
-F 0 "L7" V 7590 1150 50  0000 C CNN
-F 1 "430nH" V 7499 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 1150 50  0001 C CNN
-F 3 "~" H 7400 1150 50  0001 C CNN
-	1    7400 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 6160DD24
 P 5850 1300
-F 0 "C2" H 5965 1346 50  0000 L CNN
-F 1 "160pF" H 5600 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5888 1150 50  0001 C CNN
+F 0 "L1" H 5750 1350 50  0000 L CNN
+F 1 "8.2nH" H 5600 1200 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 1300 50  0001 C CNN
 F 3 "~" H 5850 1300 50  0001 C CNN
 	1    5850 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
-U 1 1 6160E336
+L Device:L L5
+U 1 1 6160C30C
 P 6700 1300
-F 0 "C6" H 6815 1346 50  0000 L CNN
-F 1 "160pF" H 6450 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6738 1150 50  0001 C CNN
+F 0 "L5" H 6600 1350 50  0000 L CNN
+F 1 "8.2nH" H 6450 1200 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 1300 50  0001 C CNN
 F 3 "~" H 6700 1300 50  0001 C CNN
 	1    6700 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 6160E8C6
+L Device:L L3
+U 1 1 6160CAB3
 P 6250 1150
-F 0 "C4" V 5998 1150 50  0000 C CNN
-F 1 "3.3pF" V 6089 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6288 1000 50  0001 C CNN
+F 0 "L3" V 6440 1150 50  0000 C CNN
+F 1 "430nH" V 6349 1150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 1150 50  0001 C CNN
 F 3 "~" H 6250 1150 50  0001 C CNN
 	1    6250 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L7
+U 1 1 6160CE1C
+P 7100 1150
+F 0 "L7" V 7290 1150 50  0000 C CNN
+F 1 "430nH" V 7199 1150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 1150 50  0001 C CNN
+F 3 "~" H 7100 1150 50  0001 C CNN
+	1    7100 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6160DD24
+P 6100 1300
+F 0 "C2" H 6215 1346 50  0000 L CNN
+F 1 "160pF" H 6150 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 1150 50  0001 C CNN
+F 3 "~" H 6100 1300 50  0001 C CNN
+	1    6100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6160E336
+P 6950 1300
+F 0 "C6" H 7065 1346 50  0000 L CNN
+F 1 "160pF" H 7000 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6988 1150 50  0001 C CNN
+F 3 "~" H 6950 1300 50  0001 C CNN
+	1    6950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 6160E8C6
+P 6550 1150
+F 0 "C4" V 6298 1150 50  0000 C CNN
+F 1 "3.3pF" V 6389 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6588 1000 50  0001 C CNN
+F 3 "~" H 6550 1150 50  0001 C CNN
+	1    6550 1150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 6160EC0B
-P 7100 1150
-F 0 "C8" V 6848 1150 50  0000 C CNN
-F 1 "3.3pF" V 6939 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7138 1000 50  0001 C CNN
-F 3 "~" H 7100 1150 50  0001 C CNN
-	1    7100 1150
+P 7400 1150
+F 0 "C8" V 7148 1150 50  0000 C CNN
+F 1 "3.3pF" V 7239 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7438 1000 50  0001 C CNN
+F 3 "~" H 7400 1150 50  0001 C CNN
+	1    7400 1150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -336,101 +336,98 @@ Wire Wire Line
 $Comp
 L Device:C C9
 U 1 1 61615289
-P 7100 1850
-F 0 "C9" V 6848 1850 50  0000 C CNN
-F 1 "3.3pF" V 6939 1850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7138 1700 50  0001 C CNN
-F 3 "~" H 7100 1850 50  0001 C CNN
-	1    7100 1850
+P 7400 1850
+F 0 "C9" V 7148 1850 50  0000 C CNN
+F 1 "3.3pF" V 7239 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7438 1700 50  0001 C CNN
+F 3 "~" H 7400 1850 50  0001 C CNN
+	1    7400 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 61615283
-P 6250 1850
-F 0 "C5" V 5998 1850 50  0000 C CNN
-F 1 "3.3pF" V 6089 1850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6288 1700 50  0001 C CNN
-F 3 "~" H 6250 1850 50  0001 C CNN
-	1    6250 1850
+P 6550 1850
+F 0 "C5" V 6298 1850 50  0000 C CNN
+F 1 "3.3pF" V 6389 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6588 1700 50  0001 C CNN
+F 3 "~" H 6550 1850 50  0001 C CNN
+	1    6550 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 6161527D
-P 6700 2000
-F 0 "C7" H 6815 2046 50  0000 L CNN
-F 1 "160pF" H 6450 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6738 1850 50  0001 C CNN
-F 3 "~" H 6700 2000 50  0001 C CNN
-	1    6700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 61615277
-P 5850 2000
-F 0 "C3" H 5965 2046 50  0000 L CNN
-F 1 "160pF" H 5600 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5888 1850 50  0001 C CNN
-F 3 "~" H 5850 2000 50  0001 C CNN
-	1    5850 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L8
-U 1 1 61615271
-P 7400 1850
-F 0 "L8" V 7590 1850 50  0000 C CNN
-F 1 "430nH" V 7499 1850 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 1850 50  0001 C CNN
-F 3 "~" H 7400 1850 50  0001 C CNN
-	1    7400 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L L4
-U 1 1 6161526B
-P 6550 1850
-F 0 "L4" V 6740 1850 50  0000 C CNN
-F 1 "430nH" V 6649 1850 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6550 1850 50  0001 C CNN
-F 3 "~" H 6550 1850 50  0001 C CNN
-	1    6550 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L L6
-U 1 1 61615265
 P 6950 2000
-F 0 "L6" H 7003 2046 50  0000 L CNN
-F 1 "8.2nH" H 7003 1955 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 2000 50  0001 C CNN
+F 0 "C7" H 7050 2050 50  0000 L CNN
+F 1 "160pF" H 7000 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6988 1850 50  0001 C CNN
 F 3 "~" H 6950 2000 50  0001 C CNN
 	1    6950 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
-U 1 1 6161525F
+L Device:C C3
+U 1 1 61615277
 P 6100 2000
-F 0 "L2" H 6153 2046 50  0000 L CNN
-F 1 "8.2nH" H 6153 1955 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2000 50  0001 C CNN
+F 0 "C3" H 6200 2050 50  0000 L CNN
+F 1 "160pF" H 6100 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 1850 50  0001 C CNN
 F 3 "~" H 6100 2000 50  0001 C CNN
 	1    6100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L8
+U 1 1 61615271
+P 7100 1850
+F 0 "L8" V 7290 1850 50  0000 C CNN
+F 1 "430nH" V 7199 1850 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 1850 50  0001 C CNN
+F 3 "~" H 7100 1850 50  0001 C CNN
+	1    7100 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L4
+U 1 1 6161526B
+P 6250 1850
+F 0 "L4" V 6440 1850 50  0000 C CNN
+F 1 "430nH" V 6349 1850 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 1850 50  0001 C CNN
+F 3 "~" H 6250 1850 50  0001 C CNN
+	1    6250 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L6
+U 1 1 61615265
+P 6700 2000
+F 0 "L6" H 6600 2050 50  0000 L CNN
+F 1 "8.2nH" H 6450 1900 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 2000 50  0001 C CNN
+F 3 "~" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 6161525F
+P 5850 2000
+F 0 "L2" H 5750 2050 50  0000 L CNN
+F 1 "8.2nH" H 5600 1900 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 2000 50  0001 C CNN
+F 3 "~" H 5850 2000 50  0001 C CNN
+	1    5850 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 2150 6100 2150
 Connection ~ 6100 2150
-Wire Wire Line
-	6100 2150 6700 2150
 Connection ~ 6700 2150
 Wire Wire Line
 	6700 2150 6950 2150
 Connection ~ 6950 2150
-Connection ~ 5850 1150
 Wire Wire Line
 	5850 1450 6100 1450
 Connection ~ 6100 1450
@@ -457,9 +454,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 1850 5000 1850
 Wire Wire Line
-	5400 1850 5850 1850
-Connection ~ 5850 1850
-Wire Wire Line
 	5400 2250 5850 2250
 Wire Wire Line
 	5850 2250 5850 2150
@@ -470,8 +464,6 @@ Wire Wire Line
 	3100 1950 4350 1950
 Wire Wire Line
 	4350 2250 5000 2250
-Wire Wire Line
-	5350 1150 5850 1150
 Wire Wire Line
 	3100 1550 4950 1550
 Wire Wire Line
@@ -485,8 +477,8 @@ Wire Wire Line
 Connection ~ 5850 1450
 NoConn ~ 3100 1650
 NoConn ~ 3100 1750
-Text Notes 6050 2600 0    50   ~ 0
-https://rf-tools.com/lc-filter/\nChebyshev bandpass 120-150MHz, 4th order.
+Text Notes 6250 2900 0    50   ~ 0
+https://rf-tools.com/lc-filter/\nChebyshev bandpass 120-150MHz,\nConventional, Series First,\n4th order, 1dB ripple,\nStandard Values\n
 Wire Wire Line
 	4900 1350 4950 1350
 Wire Wire Line
@@ -521,4 +513,42 @@ Text Label 3700 1550 0    50   ~ 0
 rfa-
 Text Label 3700 1450 0    50   ~ 0
 rfa+
+$Comp
+L Device:C_Small C10
+U 1 1 617A5C3C
+P 5600 1150
+F 0 "C10" V 5700 1150 50  0000 C CNN
+F 1 "0.1uF" V 5550 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 1150 50  0001 C CNN
+F 3 "~" H 5600 1150 50  0001 C CNN
+	1    5600 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 617A6687
+P 5600 1850
+F 0 "C11" V 5700 1850 50  0000 C CNN
+F 1 "0.1uF" V 5550 2050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 1850 50  0001 C CNN
+F 3 "~" H 5600 1850 50  0001 C CNN
+	1    5600 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 1150 5850 1150
+Connection ~ 5850 1150
+Wire Wire Line
+	5700 1850 5850 1850
+Connection ~ 5850 1850
+Wire Wire Line
+	5500 1850 5400 1850
+Wire Wire Line
+	5500 1150 5350 1150
+Text Label 7600 1150 0    50   ~ 0
+rfa
+Text Label 7600 1850 0    50   ~ 0
+rfb
+Wire Wire Line
+	6100 2150 6700 2150
 $EndSCHEMATC
